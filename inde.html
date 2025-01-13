@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry, Anum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f0f8ff;
+            color: #333;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        .language-buttons {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            width: 120px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anum, I'm Sorry</h1>
+    <p>Click on any language to see my apology!</p>
+    <div class="language-buttons">
+        <button onclick="showMessage('I\'m sorry, Anum!')">English</button>
+        <button onclick="showMessage('Lo siento, Anum!')">Spanish</button>
+        <button onclick="showMessage('Je suis désolé, Anum!')">French</button>
+        <button onclick="showMessage('آسف يا أنوم!')">Arabic</button>
+        <button onclick="showMessage('अनुम, मुझे माफ करें!')">Hindi</button>
+        <button onclick="showMessage('Entschuldigung, Anum!')">German</button>
+        <button onclick="showMessage('Desculpe, Anum!')">Portuguese</button>
+        <button onclick="showMessage('Pardonnez-moi, Anum!')">French (Formal)</button>
+        <button onclick="showMessage('申し訳ない、アナム！')">Japanese</button>
+        <button onclick="showMessage('미안해요, 아넘!')">Korean</button>
+        <button onclick="showMessage('죄송합니다, 아넘!')">Korean (Formal)</button>
+        <button onclick="showMessage('Scusa, Anum!')">Italian</button>
+        <button onclick="showMessage('Извини, Анам!')">Russian</button>
+        <button onclick="showMessage('Кешіріңіз, Ану!')">Kazakh</button>
+        <button onclick="showMessage('क्षमा करें, अनुप!')">Marathi</button>
+        <button onclick="showMessage('すみません、アナム!')">Japanese (Polite)</button>
+        <button onclick="showMessage('죄송합니다, 아넘!')">Korean (Formal)</button>
+        <button onclick="showMessage('Pido desculpas, Anum!')">Galician</button>
+        <button onclick="showMessage('Bocca, Anum!')">Swahili</button>
+        <button onclick="showMessage('Desculpa, Anum!')">Catalan</button>
+        <button onclick="showMessage('Scusa, Anum!')">Italian</button>
+        <button onclick="showMessage('Nai, Anum!')">Nepali</button>
+        <button onclick="showMessage('Tansykkur, Anum!')">Uzbek</button>
+        <button onclick="showMessage('Mianhae, Anum!')">Korean</button>
+        <button onclick="showMessage('Scuze, Anum!')">Romanian</button>
+        <button onclick="showMessage('Xin lỗi, Anum!')">Vietnamese</button>
+        <button onclick="showMessage('Gomennasai, Anum!')">Japanese</button>
+        <button onclick="showMessage('Pardonnez-moi, Anum!')">French (Formal)</button>
+        <button onclick="showMessage('Apologise, Anum!')">English (Formal)</button>
+        <button onclick="showMessage('Tafadhali, Anum!')">Swahili</button>
+        <button onclick="showMessage('Descúlpame, Anum!')">Spanish (Formal)</button>
+        <button onclick="showMessage('Desculpe-me, Anum!')">Portuguese (Formal)</button>
+        <button onclick="showMessage('Извините, Анам!')">Russian</button>
+        <button onclick="showMessage('Maf, Anum!')">Greek</button>
+        <button onclick="showMessage('Anum, bir az affedilmeli!')">Turkish</button>
+        <button onclick="showMessage('Lo siento, Anum!')">Spanish</button>
+        <button onclick="showMessage('Mā fōrū, Anum!')">Māori</button>
+        <button onclick="showMessage('Ogokseumida, Anum!')">Korean</button>
+        <button onclick="showMessage('Izvinite, Anum!')">Serbian</button>
+        <button onclick="showMessage('Slibim se, Anum!')">Czech</button>
+        <button onclick="showMessage('Za sorat, Anum!')">Punjabi</button>
+        <button onclick="showMessage('Desculpa-me, Anum!')">Portuguese</button>
+        <button onclick="showMessage('Ahoj, Anum!')">Czech</button>
+        <button onclick="showMessage('Sorry, Anum!')">British English</button>
+        <button onclick="showMessage('Désolé, Anum!')">French (Formal)</button>
+        <button onclick="showMessage('Mea culpa, Anum!')">Latin</button>
+        <button onclick="showMessage('Vores, Anum!')">Danish</button>
+        <button onclick="showMessage('Sumimasen, Anum!')">Japanese</button>
+        <button onclick="showMessage('Me desculpe, Anum!')">Portuguese (Brazilian)</button>
+        <button onclick="showMessage('Ekskuzo, Anum!')">Albanian</button>
+        <button onclick="showMessage('Izvinjavam se, Anum!')">Serbian</button>
+        <button onclick="showMessage('Halkan, Anum!')">Bengali</button>
+        <button onclick="showMessage('Gomene, Anum!')">Basque</button>
+        <button onclick="showMessage('Izvinite, Anum!')">Bosnian</button>
+        <button onclick="showMessage('Isćome, Anum!')">Burmese</button>
+        <button onclick="showMessage('Azumanin paaso, Anum!')">Haitian Creole</button>
+        <button onclick="showMessage('Kșeme, Anum!')">Maltese</button>
+        <button onclick="showMessage('Nezromîn, Anum!')">Ukrainian</button>
+        <button onclick="showMessage('Sumimasen, Anum!')">Japanese (Polite)</button>
+        <button onclick="showMessage('Pyaar, Anum!')">Hindi</button>
+        <button onclick="showMessage('Kostanjara, Anum!')">Croatian</button>
+        <button onclick="showMessage('Chomea, Anum!')">Polish</button>
+        <button onclick="showMessage('Excutem, Anum!')">Latvian</button>
+        <button onclick="showMessage('Afou, Anum!')">Hebrew</button>
+        <button onclick="showMessage('Wicse, Anum!')">Gaelic</button>
+        <button onclick="showMessage('Sori, Anum!')">Finnish</button>
+        <button onclick="showMessage('Pardons, Anum!')">Dutch</button>
+        <button onclick="showMessage('Abryzz, Anum!')">Turkish</button>
+        <button onclick="showMessage('Verzeihung, Anum!')">German</button>
+        <button onclick="showMessage('Muffi, Anum!')">Maltese</button>
+        <button onclick="showMessage('Félicitations, Anum!')">French (Creole)</button>
+    </div>
+    <div class="message" id="message"></div>
+    <script>
+        function showMessage(message) {
+            document.getElementById('message').innerText = message;
+        }
+    </script>
+</body>
+</html>
